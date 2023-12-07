@@ -106,8 +106,9 @@ select {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3.5rem;
-    padding: 0 4rem;
+    margin-top: 3rem;
+    /* padding: 0 4rem; */
+    gap: 1rem;
     font-family: var(--fnt-primary);
 }
 
@@ -120,5 +121,5 @@ select {
     font-size: 0.96rem;
     text-decoration: none;
     color: rgba(0, 0, 0);
-    padding: 0rem 1.4rem;
+    padding: 0rem 1rem;
 }
