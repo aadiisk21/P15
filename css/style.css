@@ -104,7 +104,7 @@ select {
 .navbar {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 3rem;
     /* padding: 0 4rem; */
@@ -112,8 +112,14 @@ select {
     font-family: var(--fnt-primary);
 }
 
+.right__nav {
+    width: 100%;
+    margin: 0 2rem;
+}
+
 .left__nav {
     min-width: 19rem;
+    margin-right: -2rem;
     /* border: 1px solid red; */
 }
 
