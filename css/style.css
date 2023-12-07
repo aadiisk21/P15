@@ -26,16 +26,24 @@
 body {
     width: 100vw;
     min-height: 100vh;
+    position: absolute;
     display: flex;
     align-items: center;
-    flex-flow: column;
-    position: absolute;
     overflow-x: hidden;
+    flex-flow: column;
     /* scrollbar-color: rgb(255, 0, 0); */
 }
 
-#navbar {
+#wrapper {
     width: 90%;
+    height: 100%;
+    border: 1px solid red;
+    position: relative;
+}
+
+/* navigation bar */
+#navbar {
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -45,7 +53,7 @@ body {
     font-family: var(--fnt-primary);
     font-weight: var(--fnt-weight-normal);
     font-size: 0.98rem;
-    /* border: 1px solid red; */
+    /* border: 1px solid green; */
 }
 
 .nav__left {
@@ -62,7 +70,7 @@ body {
 .nav__right {
     width: 70%;
     text-align: right;
-    /* border: 1px solid green; */
+    /* border: 1px solid blue; */
 }
 
 .nav__right a {
@@ -70,3 +78,5 @@ body {
     text-decoration: none;
     padding-left: 0.8rem;
 }
+
+/* container */
